@@ -1,0 +1,53 @@
+
+.default{
+  font-size: 20px;
+}
+#quote-box{
+  border-radius: 3px;
+  width: 550px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+#text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  margin-top: 30px;
+}
+#reddit-quote{
+  flex: auto;
+  
+}
+.animated{
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out;
+}
+.animated2{
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

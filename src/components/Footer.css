@@ -1,0 +1,11 @@
+.footer{
+  margin-top: 20px;
+  color: #fff;
+}
+.footer a{
+  color: #fff;
+  text-decoration: underline;
+}
+.footer a:hover{
+  color: #fff;
+}
